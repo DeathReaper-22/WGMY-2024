@@ -5,7 +5,7 @@
 - World 6 Resource: [https://monaruku.itch.io/wgmy-ver-2](https://monaruku.itch.io/wgmy-ver-2) &lt;Released and solved after CTF&gt;
 
 # Preface
-For all the world challenges, the team's approach was to use Inspect Element
+For all the world challenges, the team's approach was to use Inspect Element (Initial thought was to use Cheat Engine but couldn't get it to work). This is because the World I file can be deduced to be a JS compiled app (because of NWJS description) and World II provided hint was `Tbh this is not a natively built app, more like something just wrapped into an app`
 
 For World 1, run the extracted exe as `"World I.exe" --remote-debugging-port=9222` then open `http://localhost:9222/` to access the Inspect Element
 
